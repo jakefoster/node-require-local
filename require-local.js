@@ -4,7 +4,7 @@ var globalName, searchPath;
 
 function require_local(module) {
   searchPath = path.join( appRoot, module )
-  return require( searchpath );
+  return require( searchPath );
 };
 
 function init(){
