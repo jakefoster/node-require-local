@@ -1,0 +1,9 @@
+{
+  "name": "require-local",
+  "description": "Allows non-relative module loading from the root of an application.",
+  "main": "./require-local",
+  "author": {
+    "name": "Jake Foster"
+  },
+  "version": "0.0.1"
+}
