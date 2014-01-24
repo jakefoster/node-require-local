@@ -1,9 +1,9 @@
 var path = require('path');
 var appRoot = path.dirname(require.main.filename);
-var globalName, searchpath;
+var globalName, searchPath;
 
 function require_local(module) {
-  searchpath = path.join( appRoot, module )
+  searchPath = path.join( appRoot, module )
   return require( searchpath );
 };
 
@@ -13,7 +13,7 @@ function init(){
 
 function root(modulesRoot){
   modulesRoot  = modulesRoot === undefined ? '' : modulesRoot;
-  searchpath = path.join( appRoot, modulesRoot, module )
+  searchPath = path.join( appRoot, modulesRoot, module )
   return require_local;
 }
 
