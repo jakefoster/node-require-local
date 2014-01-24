@@ -1,9 +1,22 @@
 {
   "name": "require-local",
-  "description": "Allows non-relative module loading from the root of an application.",
+  "description": "Wrapper for require() that allows referencing dependencies from the root of the local application (or a sub-directory) instead of requiring the use of relative paths.",
   "main": "./require-local",
   "author": {
-    "name": "Jake Foster"
+    "name": "Jake Foster",
+    "email" : "jake.foster@gmail.com",
+    "url" : "http://www.jakefoster.com/"
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakefoster/node-require-local.git"
+  },
+  "bugs": "https://github.com/jakefoster/node-require-local/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
 }
+
+
