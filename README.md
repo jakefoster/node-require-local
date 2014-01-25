@@ -85,3 +85,9 @@ An important note about the app root
 Note that require-local uses the path to require.main.filename as the root of the application, so the assumption here
 is that the main module is in the root of your application.  If you're running as the main a module who's file lives
 in a sub-directory in your app then everything will be relative to that that directory, NOT the app's root directory.
+
+Unit Tests
+==========
+
+There are a handful of unit tests (implmented using nodeunit).  There's a built-in test runner so to run the unit tests
+just execute `node test` from the root of the package.
