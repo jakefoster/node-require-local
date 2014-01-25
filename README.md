@@ -89,5 +89,10 @@ in a sub-directory in your app then everything will be relative to that that dir
 Unit Tests
 ==========
 
-There are a handful of unit tests (implmented using nodeunit).  There's a built-in test runner so to run the unit tests
+There are a handful of unit tests (implemented using nodeunit).  There's a built-in test runner so to run the unit tests
 just execute `node test` from the root of the package.
+
+Nodelint
+==========
+
+Require-local.js should be nodelint compliant.  To verify run `node ./node_modules/nodelint/nodelint require-local.js`
